@@ -13,7 +13,9 @@ Steps Takens to Create This app
 
 1. rails new gmap
 2. edit gmap/Gemfile
+''' python
 	add gem 'gmaps4rails'
+'''
 3. copy things gmaps4rails into asset
 	cd into gmap
 	$rails generate gmaps4rails:install
